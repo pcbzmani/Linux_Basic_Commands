@@ -1,5 +1,5 @@
 replace comma(,) with newline(\n)
-sed "s/,/\n/g" memberscore-210304-135700.csv > editedFinal.csv
+sed "s/,/\n/g" memberscore.csv > editedFinal.csv
 
 replace space(\s) with comma(,)
-sed "s/\s/,/g" editedFinal.csv > memberscore.csv
+sed "s/\s/,/g" editedFinal.csv > memberscore1.csv
